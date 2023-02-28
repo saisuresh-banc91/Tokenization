@@ -1,0 +1,42 @@
+.cardButtons{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2vh;
+}
+
+.cardButtons button{
+    border-radius: 10px;
+    height: 4vh;
+    width: 8vw;
+    font-size: 1.8vh;
+}
+
+.userCard{
+    width: 30vw;
+    height: 35vh;
+    border-radius: 30px;
+    background-color:#323741;
+    color: white;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.userCard h3{
+    font-weight: 500;
+}
+
+.userCard img{
+    height: 9vh;
+    width: 5vw;
+}
+
+.userCard h3{
+    font-weight: 300;
+}
+
+.cardTokens{
+    display: flex;
+    justify-content: space-between;
+}

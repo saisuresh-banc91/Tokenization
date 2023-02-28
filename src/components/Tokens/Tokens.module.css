@@ -1,0 +1,138 @@
+.tokensPageContainer{
+    /* min-height: 89vh; */
+    display: flex;
+}
+
+.selectedCardContainer{
+    padding-top: 5vh;
+    width: 30vw;
+    border-right: 1px solid rgba(128, 128, 128, 0.336);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selectedCardContainer h1{
+    border-bottom: 1px solid rgba(211, 211, 211, 0.76);
+    padding-bottom: 1vh;
+    font-weight: 400;
+}
+
+.userTokenCard{
+    margin: 3vh;
+    height: 30vh;
+    width: 25vw;
+}
+
+.userTokenCard img{
+    height: 5vh;
+    width: 3vw;
+}
+
+.userTokenCard h3{
+    font-size: 2vh;
+}
+
+.userTokenCard p{
+    font-size: 1.5vh;
+}
+
+.tokenContainer{
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.tokenContainer table{
+    text-align: center;
+    padding-bottom: 5vh;
+    width: 60vw;
+}
+
+.noTokensContainer{
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 3vh;
+}
+
+.noTokensContainer h2{
+    font-weight: 300;
+}
+
+.noTokensContainer button{
+    background-color: rgb(217, 217, 253);
+}
+
+.tokenTableContainer .backButton{
+    background-color: rgb(217, 217, 253);
+    width: 6vw;
+}
+
+.tokenTableContainer table{
+    width: 60vw;
+}
+
+.tokenTableContainer table h3{
+    font-size: 2.5vh;
+}
+
+.tokenTableContainer{
+    overflow-y: auto;
+    max-height: 30vh;
+    border: 1px solid rgba(224, 224, 224, 0.719);
+}
+
+.tokenTableContainer table button{
+    background-color: #d3d3fa;
+    border-radius: 20px;
+}
+
+.tokenTableContainer .statusColumn{
+    width:10vw;
+}
+
+.tokenTableContainer .actionColumn{
+    width:15vw;
+}
+
+.fetchingTokensContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1vw;
+}
+
+.fetchingTokensContainer h4{
+    font-weight: 300;
+}
+
+.tokenContainer th{
+    border: 1px solid rgb(202, 202, 202);
+    background-color: #323741;
+    color: white;
+}
+
+.tokenTableContainer a{
+    text-decoration: none;
+}
+
+.tokenContainer td{
+    border: 1px solid rgb(202, 202, 202);
+    padding: 2vh;
+    font-size: 1.8vh;
+}
+
+.tokenTableContainer button{
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(63, 233, 63);
+    color: white;
+}
+
+.tokensPageContainer .tokenTableContainer button{
+    background-color: #aaaafd;
+}

@@ -1,0 +1,171 @@
+/* Styling for the Delete token alert dialogue component */
+
+/* reset */
+
+.AlertDialogOverlay {
+  background-color: rgba(92, 92, 92, 0.521);
+  position: fixed;
+  inset: 0;
+  animation: overlayShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.AlertDialogContent {
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: hsl(206 22% 7% / 35%) 0px 10px 38px -10px, hsl(206 22% 7% / 20%) 0px 10px 20px -15px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90vw;
+  max-width: 500px;
+  max-height: 85vh;
+  padding: 25px;
+  animation: contentShow 150ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+.AlertDialogContent:focus {
+  outline: none;
+}
+
+.AlertDialogTitle {
+  margin: 0;
+  color: var(--mauve12);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.AlertDialogDescription {
+  margin-bottom: 20px;
+  color: var(--mauve11);
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.AlertDialogContent .Button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  padding: 0 15px;
+  font-size: 15px;
+  line-height: 1;
+  font-weight: 500;
+  height: 35px;
+}
+.AlertDialogContent .Button.violet {
+  background-color: white;
+  color: var(--violet11);
+  box-shadow: 0 2px 10px var(--blackA7);
+}
+.AlertDialogContent .Button.violet:hover {
+  background-color: var(--mauve3);
+}
+.AlertDialogContent .Button.violet:focus {
+  box-shadow: 0 0 0 2px black;
+}
+.AlertDialogContent .Button.red {
+  background-color: var(--red4);
+  color: var(--red11);
+}
+.AlertDialogContent .Button.red:hover {
+  background-color: var(--red5);
+}
+.AlertDialogContent .Button.red:focus {
+  box-shadow: 0 0 0 2px var(--red7);
+}
+.AlertDialogContent .Button.mauve {
+  background-color: var(--mauve4);
+  color: var(--mauve11);
+}
+.AlertDialogContent .Button.mauve:hover {
+  background-color: var(--mauve5);
+}
+.AlertDialogContent .Button.mauve:focus {
+  box-shadow: 0 0 0 2px var(--mauve7);
+}
+
+@keyframes overlayShow {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes contentShow {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -48%) scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+}
+
+/*  ---  */
+
+.headerContainer{
+  padding-left: 2vw;
+  padding-right: 2vw;
+  background-color: #eeeefd;
+  height: 6vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContainer h1{
+  font-weight: 300;
+}
+
+.headerContainer a{
+  text-decoration: none;
+  color: black;
+}
+
+.headerContainer span{
+  font-size: 2.5vh;
+  font-weight: 300;
+}
+
+.createTokenContainer .createTokens  button{
+  border-radius: 10px;
+  height: 4vh;
+  width: 8vw;
+  font-size: 1.8vh;
+}
+
+.dropdown .tokenSites li{
+  padding-left: 1vw;
+}
+
+.dropdown .tokenSites li:hover{
+  background-color: rgba(219, 219, 219, 0.582);
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #d2d2fc;
+  border-color: #d2d2fc transparent #d2d2fc transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
