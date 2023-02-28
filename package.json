@@ -1,0 +1,39 @@
+{
+  "name": "tokenization",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@bhaskarj123/button-github": "^1.0.0",
+    "@bhaskarj123/input-github": "^1.0.0",
+    "@bhaskarj123/styled-cancel-button-github": "^1.0.0",
+    "@bhaskarj123/styled-delete-button-github": "^1.0.0",
+    "@next/font": "13.1.6",
+    "@radix-ui/react-alert-dialog": "^1.0.2",
+    "@radix-ui/react-avatar": "^1.0.1",
+    "@reduxjs/toolkit": "^1.9.3",
+    "@types/node": "18.14.0",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "@types/styled-components": "^5.1.26",
+    "@types/validator": "^13.7.12",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-redux": "^8.0.5",
+    "redux": "^4.2.1",
+    "styled-components": "^5.3.6",
+    "typescript": "4.9.5",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.7"
+  }
+}

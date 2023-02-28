@@ -1,0 +1,142 @@
+.userContainer{
+    height: 89vh;
+    display: flex;
+}
+
+.userDetailsContainer{
+    width: 25vw;
+    border-right: 1px solid rgb(192, 192, 192);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userDetails{
+    padding-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.cardTokens{
+    display: flex;
+}
+
+.userDetails i{
+    color: #171A29;
+}
+
+.userDetails h1{
+    font-weight: 300;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.274);
+    padding-bottom: 2vh;
+}
+
+.userDetails h5{
+    font-weight: 300;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.274);
+    padding-bottom: 2vh;
+}
+
+.userLogo{
+    width: 25vw;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #171A29;
+}
+
+.userLogo i{
+    font-size: 10vh;
+    color: white;
+}
+
+
+.userDetailsContainer img{
+    width: 10vw;
+    padding-bottom: 5vh;
+}
+
+.cardTokens button{
+    width: 7vw;
+    height: 4vh;
+    background: linear-gradient(90deg, hsl(192, 67%, 46%) ,  hsl(200, 46%, 74%));
+    color: black;
+    border-radius: 20px;
+}
+
+.userCard{
+    width: 30vw;
+    height: 35vh;
+    border-radius: 30px;
+    background-color:#323741;
+    color: white;
+    padding: 2vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.cardTokens{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardTokens p{
+    padding-top: 1vh;
+}
+
+.cardViewContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
+}
+
+.cardViewContainer button{
+    height: 9vh;
+    width: 5vw;
+    font-size: 5vh;
+    border-radius: 50%;
+    background-color: rgba(228, 228, 228, 0.527);
+}
+
+.cardViewContainer button:focus{
+    box-shadow: none;
+}
+
+.cardDetails{
+    padding-top: 3vh;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    gap: 5vh;
+    align-items: center;
+    padding-bottom: 5vh;
+}
+
+.cardDetails h2{
+    color:#171A29;
+}
+
+.cardDetails h1{
+    font-weight: 300;
+}
+
+.userCard h3{
+    font-weight: 500;
+}
+
+.cardTokens h3{
+    font-weight: 300;
+}
+
+.userCard img{
+    height: 9vh;
+    width: 5vw;
+}
+
+.userCard h3{
+    font-weight: 300;
+}
